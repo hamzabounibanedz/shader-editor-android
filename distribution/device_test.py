@@ -84,6 +84,7 @@ try:
     shell('wm','dismiss-keyguard')
     adb('logcat','-c')
     launch()
+    find('menu_btn', timeout=50)
     capture('01-launch')
     exercise()
     capture('02-workflow')
