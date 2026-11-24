@@ -39,7 +39,7 @@ jobs:
         run: |
           rm -rf app/build
           for attempt in 1 2 3; do
-            if sdkmanager --install emulator --channel=0; then exit 0; fi
+            if "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --install emulator --channel=0; then exit 0; fi
             sleep 5
           done
           exit 1

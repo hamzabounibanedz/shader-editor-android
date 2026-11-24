@@ -8,10 +8,11 @@ android {
 	compileSdk = 37
 
 	defaultConfig {
+		applicationId = "io.github.hamzabounibanedz.shadereditor"
 		minSdk = 23
 		targetSdk = compileSdk
 
-		versionCode = 94
+		versionCode = (System.getenv("GITHUB_RUN_NUMBER") ?: "1").toInt()
 		versionName = "2.36.3"
 
 		vectorDrawables {
