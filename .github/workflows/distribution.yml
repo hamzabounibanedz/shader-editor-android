@@ -35,6 +35,14 @@ jobs:
           tool=$(find "$ANDROID_HOME/build-tools" -name apksigner | sort -V | tail -1)
           "$tool" verify --verbose --print-certs delivery/shader-editor-android.apk > delivery/evidence/apk-signature.txt
           jarsigner -verify delivery/shader-editor-android.aab
+      - name: Prepare emulator package
+        run: |
+          rm -rf app/build
+          for attempt in 1 2 3; do
+            if sdkmanager --install emulator --channel=0; then exit 0; fi
+            sleep 5
+          done
+          exit 1
       - name: Enable KVM
         run: |
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
