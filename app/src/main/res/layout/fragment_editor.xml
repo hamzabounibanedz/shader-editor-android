@@ -31,7 +31,7 @@
 			android:paddingHorizontal="@dimen/editor_padding"
 			android:paddingTop="@dimen/editor_padding"
 			android:textColor="@color/editor_text"
-			android:textSize="12sp"
+			android:textSize="14sp"
 			android:typeface="monospace"
 			app:lineNumberColor="@color/editor_line_numbers"
 			app:lineNumberSpacing="@dimen/editor_padding"

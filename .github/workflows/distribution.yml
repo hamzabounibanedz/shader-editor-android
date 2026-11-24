@@ -90,5 +90,5 @@ jobs:
       - env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "android-${GITHUB_RUN_NUMBER}.${GITHUB_RUN_ATTEMPT}" delivery/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "ShaderEditor 2.36.3 · Android" --notes "Independent build of [ShaderEditor 2.36.3](https://github.com/markusfisch/ShaderEditor/releases/tag/2.36.3). Download **shader-editor-android.apk** to install. The AAB, checksums and emulator evidence are also attached. [Build and test log]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)."
+          gh release create "android-${GITHUB_RUN_NUMBER}.${GITHUB_RUN_ATTEMPT}" delivery/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Chromafold · Android" --notes "Independent build of [ShaderEditor 2.36.3](https://github.com/markusfisch/ShaderEditor/releases/tag/2.36.3). Download **shader-editor-android.apk** to install. The AAB, checksums and emulator evidence are also attached. [Build and test log]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)."
 

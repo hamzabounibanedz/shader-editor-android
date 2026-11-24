@@ -1,5 +1,5 @@
 <resources>
-	<string name="app_name">著色器編輯器</string>
+	<string name="app_name">Chromafold</string>
 
 	<string name="drawer_open">開啟側欄</string>
 	<string name="drawer_close">關閉側欄</string>

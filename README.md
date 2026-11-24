@@ -1,9 +1,11 @@
 <!-- independent-distribution -->
-# ShaderEditor for Android
+# Chromafold for Android
 
-GLSL editor and live previews. This independently signed edition builds the [original 2.36.3 release](https://github.com/markusfisch/ShaderEditor/tree/f534a689e20b958a9b88cf049d30b56670850505) from source. The upstream name, license and application features are preserved.
+GLSL editor and live previews. This independently signed edition builds the [original 2.36.3 release](https://github.com/markusfisch/ShaderEditor/tree/f534a689e20b958a9b88cf049d30b56670850505) from source. This edition adds a new native identity and a browser companion. Upstream attribution and licensing are included.
 
 [Download APK and AAB](https://github.com/hamzabounibanedz/shader-editor-android/releases/latest) · [Cloud build and emulator results](https://github.com/hamzabounibanedz/shader-editor-android/actions/workflows/distribution.yml)
+
+[Web companion](https://chromafold-lab.vercel.app) · [Install on Android](https://chromafold-lab.vercel.app/install)
 
 ![Scan for the Android installation page](distribution/install-qr.png)
 

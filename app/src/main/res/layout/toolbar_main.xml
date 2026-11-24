@@ -6,7 +6,7 @@
 	android:layout_height="?attr/actionBarSize"
 	android:background="@color/primary_translucent"
 	android:theme="@style/ThemeOverlay.Material3.ActionBar"
-	app:popupTheme="@style/ThemeOverlay.Material3"
+	app:logo="@drawable/brand_toolbar_logo" app:popupTheme="@style/ThemeOverlay.Material3"
 	app:subtitleTextAppearance="@style/Subtitle"
 	app:titleTextAppearance="@style/Title">
 

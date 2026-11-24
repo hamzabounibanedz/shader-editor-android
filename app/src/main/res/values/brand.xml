@@ -1,0 +1,5 @@
+<resources>
+  <color name="brand_base">#1b1634</color>
+  <color name="brand_accent">#b89eff</color>
+  <string name="brand_wordmark" translatable="false">Chromafold</string>
+</resources>

@@ -1,5 +1,5 @@
 <resources>
-	<dimen name="editor_padding">8dp</dimen>
+	<dimen name="editor_padding">14dp</dimen>
 	<dimen name="menu_item_height">48dp</dimen>
 	<!-- menu_width = 5 * menu_item_height -->
 	<dimen name="menu_width">240dp</dimen>
